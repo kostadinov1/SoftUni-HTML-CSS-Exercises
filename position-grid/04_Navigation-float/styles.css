@@ -1,0 +1,9 @@
+header * {
+    display: inline-block;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-areas: "article article aside";
+}
