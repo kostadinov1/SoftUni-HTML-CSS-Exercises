@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body > * {
     background: rgb(181, 216, 255);
     border-radius: 3px;
