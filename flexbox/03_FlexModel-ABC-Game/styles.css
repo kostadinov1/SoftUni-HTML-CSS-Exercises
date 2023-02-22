@@ -19,3 +19,14 @@
     max-width: 15vw;
     height: 35rem;
 }
+
+/* h2 {
+    transform:skew(60deg, -30deg) scaleY(.66667);
+}
+h3 {
+    transform:skew(20deg, -400deg) scaleY(2);
+
+} */
+/* .container:nth-child(1) {
+    flex: auto;
+} */

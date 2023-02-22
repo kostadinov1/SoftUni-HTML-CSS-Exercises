@@ -1,0 +1,186 @@
+
+body {
+    
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: relative;
+}
+
+
+
+.nav-bar {
+    background: none;
+    position:absolute;
+    top: 20px;
+    display: flex;
+    margin: 0 auto;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.nav-bar h1 {
+    padding-left: 350px;
+}
+
+
+.menu {
+    display: flex;
+    padding-left: 250px;
+    list-style: none;
+}
+.menu * {
+    text-decoration: none;
+    color: #67565f;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu button {
+    margin-left: 30px;
+}
+
+.hero {
+    height: 80vh;
+    
+    background-image: url("./images/landing-photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hero .info {
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.hero .info h1 {
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+.hero .info h3 {
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.hero .info p {
+    font-weight: normal;
+    /* font-size: 30px; */
+    margin-bottom: 20px;
+}
+
+.hero .info button {
+    max-width: 150px;
+    padding: 5px 40px;
+}
+
+.btn {
+    all: unset;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 40px;
+    color: white;
+    background-color: #30000a;
+}
+
+
+.most-famous-imgs {
+    margin: 0 250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+}
+.most-title {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    margin-top: 50px;
+    margin-bottom: 20px;
+    align-items:center
+}
+.most-title h1 {
+    font-size: 30px;
+}
+
+.most-title h5 {
+    margin-top: 10px;
+    color: #67565f;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.card p {
+    max-width: 60%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card-btn {
+    margin-bottom: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #cbbfc2;
+    padding: 10px 20px;
+}
+
+footer {
+
+    background-color: black;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:  0px;
+    height: 30vh;
+    
+}
+footer h1 {
+    margin-right: 200px;
+}
+footer .social-media {
+    margin-left: 200px;
+}
+
+footer li {
+
+    list-style: none;
+}
+
+footer a {
+    line-height: 3;
+    color: white;
+    text-decoration: none;
+}
+footer ul {
+    margin: 0px 40px;
+}
+.social-media .icons {
+    margin-top: 10px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+

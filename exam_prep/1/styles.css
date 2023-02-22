@@ -1,0 +1,60 @@
+body {
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.blog {
+    background-color: #f6e0b5;
+    display: flex;
+    max-height: 70vh;
+    justify-content: center;
+    padding: 50px;
+}
+.imgs {
+    max-width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 4%;
+    column-gap: 3%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 10px 20px 30px 10px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+
+}
+.card h3 {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 24px;
+    bottom: 0px;
+    color: white;
+    background-color: #66545e;
+    width: 100%;
+    height: 20%;
+}
+
+.categories {
+    max-width: 30%;
+    padding: 50px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #67656f;
+}
+
+.links {
+    padding: 20px;    
+    list-style: none;
+}
